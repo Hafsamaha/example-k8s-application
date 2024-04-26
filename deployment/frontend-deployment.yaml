@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: example-frontend
-          image: sidilotfi/example-frontend:1.0.0
+          image: sidilotfi/example-frontend:1.0.1
           imagePullPolicy: IfNotPresent
           resources:
             requests:

@@ -11,10 +11,10 @@ jobs:
       matrix:
         include:
           - dockerfile: ./backend/Dockerfile
-            image: sidilotfi/example-backend:1.0.0
+            image: sidilotfi/example-backend:1.0.1
             context: ./backend
           - dockerfile: ./frontend/Dockerfile
-            image: sidilotfi/example-frontend:1.0.0
+            image: sidilotfi/example-frontend:1.0.1
             context: ./frontend
     steps:
       - name: Checkout code
