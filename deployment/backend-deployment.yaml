@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: example-backend
-          image: sidilotfi/example-backend:1.0.2
+          image: sidilotfi/example-backend:1.0.3
           imagePullPolicy: IfNotPresent
           resources:
             requests:
